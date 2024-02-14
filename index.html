@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+
+    <script src="ml5.min.js"></script>
+    <script src="webcam.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+  
+
+  </head>
+  <body background="img.jpg">
+      <h1 class="text-center btn btn-info">AI Object Finder</h1>
+     <br><br>
+	    <span class="btn btn-warning"> The input name ,which you will give ,should match the names present in CoCoSSD model. Then , the detcetion will initialize.</span>
+  	</h3>
+    <br> <br>
+    <h3 id="hint"> Type the name of the object here :</h3>
+    <input type="">
+    <br> <br>
+    <button onclick="Start()">Start</button>
+<br> <br>
+    <h3 id="Status" class="btn btn-warning"> Status:</h3> 
+    <br>
+    <h3 id=""> </h3>
+    <br>
+  <div class="container">
+   
+   <div class="row">
+        <div class="col-md-6">
+            <label> Live webcam Preview  </label>
+            <div id="camera"></div>
+            <br>
+           
+        </div>
+       
+   <div>
+    <br>
+   
+    
+    
+  </div>
+    <script src="sketch.js"></script>
+  
+
+</body></html>
